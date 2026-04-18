@@ -56,8 +56,7 @@
     printf("Digite o nome da cidade A: ");
     scanf(" %[^\n]", NomeCidadeA);
 
-    printf("Digite a população da cidade A: ");
-    scanf(" %d", &PopulacaoA);
+    printf("População: %d\n", PopulacaoA);
 
     printf("Digite a área da cidade A: ");
     scanf(" %f", &AreaA);
@@ -80,8 +79,7 @@
     printf("Digite o nome da cidade 2: ");
     scanf(" %[^\n]", NomeCidadeB);
 
-    printf("Digite a população da cidade 2: ");
-    scanf(" %d", &PopulacaoB);
+    printf("População: %d\n", PopulacaoB);
 
     printf("Digite a área da cidade 2: ");
     scanf(" %f", &AreaB);
@@ -126,7 +124,7 @@
     }
     
     printf("\n--- VENCEDOR FINAL (SUPER PODER) ---\n");
-    
+
     if (SuperPoderA > SuperPoderB) {
         printf("A cidade vencedora é: %s\n", NomeCidadeA);
     } else {
